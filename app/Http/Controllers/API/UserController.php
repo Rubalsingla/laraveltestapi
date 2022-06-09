@@ -15,7 +15,7 @@ public $successStatus = 200;
      */ 
     public function login(){ 
 
-        
+        echo"Gellocbdcg dhchw";
 
         if(Auth::attempt(['email' => request('email'), 'password' => request('password')])){ 
             $user = Auth::user(); 
